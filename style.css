@@ -18,3 +18,8 @@
     @apply name;
   }
 }
+
+.weth {
+  width: 420px;
+  
+}
