@@ -5,11 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
-      content="width=
+      content="width=device-width
     , initial-scale=1.0"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#0000FF",
+              secondary: {
+                100: "#E2E2D5",
+                200: "#888883",
+              },
+              clifford: "#da373d",
+            },
+            fontSize: {
+              xs: "0.75rem",
+              sm: "0.875rem",
+              base: "1rem",
+              lg: "1.125rem",
+              xl: "1.25rem",
+              "2xl": "1.5rem",
+              "3xl": "1.875rem",
+              "4xl": "2.25rem",
+              "5xl": "3rem",
+              "6xl": "4rem",
+            },
+            fontFamily: {
+              sans: [
+                "ui-sans-serif",
+                "system-ui",
+                "sans-serif",
+                '"Apple Color Emoji"',
+                '"Segoe UI Emoji"',
+                '"Segoe UI Symbol"',
+                '"Noto Color Emoji"',
+              ],
+              serif: [
+                "ui-serif",
+                "Georgia",
+                "Cambria",
+                '"Times New Roman"',
+                "Times",
+                "serif",
+              ],
+              mono: [
+                "ui-monospace",
+                "SFMono-Regular",
+                "Menlo",
+                "Monaco",
+                "Consolas",
+                '"Liberation Mono"',
+                '"Courier New"',
+                "monospace",
+              ],
+              body: ["nunito"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <link rel="stylesheet" href="./style.css" />
     <title>Email</title>
   </head>
-  <body></body>
+  <body class="bg-gray-200">
+    <div class="flex shadow border-2 py-6 position-absolute ">
+      <img src="./images/logo-gmail.png" alt="" class="w-8" />
+      <span class="position-relative">Gmail</span>
+
+      <div >
+        <span> For companies</span>
+        <span>Connection</span>
+        <a
+          href="#"
+          class="text-primary rounded-full py-2 px-3 uppercase text-xs font-bold cursor-point tracking-wider border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500"
+          >Create an account</a
+        >
+      </div>
+    </div>
+  </body>
 </html>

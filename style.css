@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .content-auto {
+    content-visibility: auto;
+  }
+}
+
+.name {
+  color: rgba(15, 15, 238, 0.017);
+  background: red;
+}
+
+@layer components {
+  .card {
+    @apply name;
+  }
+}
