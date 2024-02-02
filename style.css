@@ -2,19 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .content-auto {
-    content-visibility: auto;
-  }
-}
-
-
-
-
 .weth {
   width: 600px;
   height: 50px;
-  
 }
 
 /* .decor{
