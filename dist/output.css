@@ -621,6 +621,34 @@ video {
   margin-top: 3rem;
 }
 
+.mr-40 {
+  margin-right: 10rem;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mr-9 {
+  margin-right: 2.25rem;
+}
+
+.-mr-96 {
+  margin-right: -24rem;
+}
+
+.mr-96 {
+  margin-right: 24rem;
+}
+
 .line-clamp-3 {
   overflow: hidden;
   display: -webkit-box;
