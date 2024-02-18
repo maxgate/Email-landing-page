@@ -52,6 +52,9 @@ module.exports = {
         ],
         body: ["nunito"],
       },
+      backgroundImage: {
+        "progressBar": "url('./images/animate.webp')",
+      },
     },
   },
   plugins: [],

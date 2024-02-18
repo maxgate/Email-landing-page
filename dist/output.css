@@ -544,6 +544,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-12 {
+  margin: 3rem;
+}
+
 .mx-12 {
   margin-left: 3rem;
   margin-right: 3rem;
@@ -557,6 +561,14 @@ video {
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .ml-10 {
@@ -575,11 +587,18 @@ video {
   margin-top: 3rem;
 }
 
-.line-clamp-5 {
+.line-clamp-3 {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 3;
+}
+
+.line-clamp-4 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
 }
 
 .flex {
@@ -588,6 +607,18 @@ video {
 
 .grid {
   display: grid;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-1 {
+  width: 0.25rem;
 }
 
 .w-6 {
@@ -610,6 +641,10 @@ video {
   justify-content: space-between;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .rounded-md {
   border-radius: 0.375rem;
 }
@@ -627,9 +662,18 @@ video {
   border-color: rgb(0 0 255 / var(--tw-border-opacity));
 }
 
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
 .bg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 255 / var(--tw-bg-opacity));
+}
+
+.bg-progressBar {
+  background-image: url('./images/animate.webp');
 }
 
 .px-12 {
@@ -680,6 +724,10 @@ video {
   padding-top: 1.5rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+}
+
 .text-6xl {
   font-size: 4rem;
 }
@@ -692,8 +740,24 @@ video {
   font-size: 1.25rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-light {
+  font-weight: 300;
 }
 
 .leading-none {
@@ -755,4 +819,11 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:bg-gray-700 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+  }
 }
