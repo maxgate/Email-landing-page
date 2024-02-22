@@ -694,6 +694,11 @@ video {
   margin-right: 2.5rem;
 }
 
+.mx-14 {
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -948,6 +953,16 @@ video {
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
 .object-contain {
